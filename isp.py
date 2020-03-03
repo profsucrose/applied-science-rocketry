@@ -5,6 +5,8 @@ import matplotlib.patches as mpatches
 import math
 import numpy as np
 
+ENGINE_ISP = 282
+
 def deltaVSimple(sImpulseSpecific):
     # Calculates and plots deltaV over range of fuelmass
     # Utilizes Merlin LOX engine, 282 Isp, Sea Level
@@ -81,4 +83,4 @@ def deltaVSimple(sImpulseSpecific):
 
     plt.show() # display chart via localhost
 
-deltaVSimple(100)
+deltaVSimple(ENGINE_ISP)
