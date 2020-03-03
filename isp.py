@@ -62,11 +62,11 @@ def deltaVSimple(sImpulseSpecific):
         nEfficiencyFuelList.append(nEfficiencyFuel)
         greaterThanTotalDeltaVList.append(greaterThanTotalDeltaV)
 
-    plt.plot(deltaVList, label="Delta V", color=color_legends['deltaV'])
-    plt.plot(mRocketList, label="Rocket Mass", color=color_legends['mRocket'])
-    plt.plot(mFuelList, label="Fuel Mass", color=color_legends['mFuel'])
-    plt.plot(nEfficiencyFuel, label="Fuel Efficiency", color=color_legends['nEfficiency'])
-    plt.plot(greaterThanTotalDeltaVList, label="Greater than Total Delta V", color=color_legends['greaterThanTotalDeltaV'])
+    plt.plot(deltaVList, color=color_legends['deltaV'])
+    plt.plot(mRocketList, color=color_legends['mRocket'])
+    plt.plot(mFuelList, color=color_legends['mFuel'])
+    plt.plot(nEfficiencyFuel, color=color_legends['nEfficiency'])
+    plt.plot(greaterThanTotalDeltaVList, color=color_legends['greaterThanTotalDeltaV'])
 
     plt.legend(handles=[
         mpatches.Patch(color=color_legends['deltaV'], label='Delta V'),
@@ -80,6 +80,7 @@ def deltaVSimple(sImpulseSpecific):
 
     plt.title('ISP Graph')
     plt.xlabel('Fuel Mass')
+    plt.ylabel('Rocket Mass')
 
     plt.show() # display chart via localhost
 
