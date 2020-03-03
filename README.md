@@ -4,6 +4,8 @@ Ports from Dan's MatLab programs to Python3
 ## Installation
 applied-science-rocketry uses Python3 and the pip3 packages matplotlib and numpy, so make sure you have pip3 first before using this repository.
 
+Open Terminal and run these commands as needed:
+
 Download repository:
 ```bash
 git clone https://github.com/profsucrose/applied-science-rocketry.git && cd applied-science-rocketry
