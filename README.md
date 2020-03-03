@@ -9,7 +9,7 @@ Download repository:
 git clone https://github.com/profsucrose/applied-science-rocketry.git && cd applied-science-rocketry
 ```
 
-Download pip3 packages:
+Download pip packages:
 ```bash
 pip3 install matplotlib && pip3 install numpy
 ```
